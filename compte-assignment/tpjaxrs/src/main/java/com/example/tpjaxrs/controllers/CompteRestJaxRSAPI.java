@@ -9,7 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+import jakarta.ws.rs.core.GenericEntity;
+import jakarta.ws.rs.core.Response;
 
 @Component
 @Path("/banque")

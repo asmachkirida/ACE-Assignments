@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 
 
-@XmlRootElement // Indicate that this class can be serialized to XML
+@XmlRootElement
 public class Compte {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
