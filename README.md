@@ -22,10 +22,16 @@ DELETE /banque/comptes/{id}    // Delete account by ID
 A quick demonstration of the API:
 
 
+https://github.com/user-attachments/assets/5b1cff46-9ccd-465f-804b-fdc6cca4109b
+
+
+
 ```bash
 curl -X GET "http://localhost:8080/banque/comptes" -H "Accept: application/xml"
 ```
-
+```bash
+curl -X GET "http://localhost:8082/banque/comptes" -H "Accept: application/json"
+```
 ## Acknowledgments
 
 Thanks to the contributors on Stack Overflow for their help with troubleshooting errors, particularly regarding the **MessageBodyWriter** error. You can find the relevant discussion [here](https://stackoverflow.com/questions/66680573/severe-messagebodywriter-not-found-for-media-type-application-xml).
